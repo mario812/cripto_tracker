@@ -5,8 +5,8 @@ from typing import List
 
 class Config:
     """Configuraciones predeterminadas de la aplicación."""
-    DEFAULT_SYMBOL: str = "BTCUSDT"
-    DEFAULT_SYMBOLS: List[str] = ["BTCUSDT", "ETHUSDT"]
+    DEFAULT_SYMBOL: str = "SOLUSDT"
+    DEFAULT_SYMBOLS: List[str] = ["SOLUSDT", "ETHUSDT"]
     BASE_URL: str = "https://api.binance.com/api/v3/ticker/24hr"
     LOG_FILE: str = "prices.log"
 
